@@ -3,7 +3,7 @@
   "name": "iconify-preview",
   "displayName": "Iconify IntelliSense Preview",
   "type": "commonjs",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "private": true,
   "packageManager": "pnpm@8.9.2",
   "description": "Intelligent Iconify previewing and searching for VS Code",
@@ -483,7 +483,7 @@
         },
         "iconify.cdnEntry": {
           "type": "string",
-          "default": "https://google.com",
+          "default": "https://icones.js.org/collection",
           "description": "CDN entry of iconify icon-sets"
         },
         "iconify.customCollectionJsonPaths": {
