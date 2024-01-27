@@ -33,7 +33,7 @@ export function RegisterCompletion(ctx: ExtensionContext) {
     },
   }
 
-  const REGEX_COLLECTION = /icon=['"][\w-]*$/
+  const REGEX_COLLECTION = /(icon|class|className)=['"][\w-]*$/
 
   const collectionProvider: CompletionItemProvider = {
     provideCompletionItems(document: TextDocument, position: Position) {
